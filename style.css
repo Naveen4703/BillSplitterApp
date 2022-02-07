@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Poppins:wght@400;600&display=swap');
+*{
+  font-family: 'IM Fell English SC', serif;
+font-family: 'Poppins', sans-serif;
+overflow-y: hidden;
+overflow-x: hidden;
+}
+body{
+  background: linear-gradient(45deg ,turquoise , teal ,blueviolet , #6e06e6 , rgb(7,228,206)); 
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  
+  }
+.container{
+ margin: 30px;
+  padding: 20px;
+  overflow: hidden;
+}
+.head{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head  span{
+  color: black;
+}
+
+#s{
+color: black;
+font-size: 40px;
+font-weight: bolder;
+}
+input{
+  border: 1px solid #000;
+  border-radius: 3px;
+  display: flex;
+  margin-top: 30px;
+  padding: 5px;
+  align-items: center;
+justify-content: center;
+}
+.btn{
+border: 2px solid black;
+display: inline;
+margin-top: 25px;
+padding: 6px 20px;
+color: black;
+background-color: turquoise;
+font-weight: bolder;
+border-radius: 33px;
+}
+.btn:hover{
+  color: white;
+  background-color: black;
+  font-weight: bolder;
+  border: 2px solid turquoise;
+display: inline;
+margin-top: 25px;
+padding: 6px 20px;
+border-radius: 33px;
+}
+.flex-it{
+ display: flex; 
+align-items: center;
+justify-content: center; 
+}
+#wrap{
+align-items: center;
+justify-content: center;
+}
+#splitAmount{
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+}
+footer {
+    color: whitesmoke;
+    margin-top: 0px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 200px;
+}

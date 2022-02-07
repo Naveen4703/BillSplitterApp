@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Poppins:wght@400;600&display=swap');
+*{
+  font-family: 'IM Fell English SC', serif;
+font-family: 'Poppins', sans-serif;
+overflow-y: hidden;
+overflow-x: hidden;
+}
+body{
+  background: linear-gradient(45deg ,turquoise , teal ,blueviolet , #6e06e6 , rgb(7,228,206)); 
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+
+}
+.container{
+    margin: 50px;
+     padding: 20px;
+     overflow: hidden;
+   }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+  <meta name="theme-color" content="black">
+
+	<title>BillSplitApp</title>
+	<link rel="stylesheet" media="screen and (max-width: 576px)" href="style.css"type="text/css" />
+  <link rel="stylesheet" media="screen and (min-width: 577px)" href="style2.css" type="text/css" />
+</head>
+
+<body>
+	<div class="container">
+
+		<h1 class="head">Bill <span> <span id="s"> Split </span> </span>  App </h1>
+<div id="wrap">
+<input type="number" id="amount" placeholder="Enter Amount" >
+<input type="number" placeholder="No of Friends" id="friends" >
+<input type="number" id="tip" placeholder="Enter Tip">
+</div>
+<div class="flex-it">
+<div class="btn" onclick="bill()" >
+  SPLIT
+  </div>
+</div>
+<h1 id="splitAmount"> </h1>
+</div>
+    <script src="script.js"></script>
+    <footer>                                   
+                                   
+    <p>&copy; <script>var year = new Date();document.write(year.getFullYear());</script><br>Naveen</p>
+</footer>
+  </body>
+</html>
